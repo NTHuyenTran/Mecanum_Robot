@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo -- -j16 -l16
+[0.056s] Invoked command in '/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo -- -j16 -l16
+[0.057s] Invoking command in '/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo
+[0.065s] -- Install configuration: ""
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/launch
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/launch/world.launch.py
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds/world.sdf
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds/empty.sdf
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/ament_index/resource_index/package_run_dependencies/mec_mobile_gazebo
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/ament_index/resource_index/parent_prefix_path/mec_mobile_gazebo
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/path.sh
+[0.066s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/path.dsv
+[0.067s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.bash
+[0.067s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.sh
+[0.067s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.zsh
+[0.067s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.dsv
+[0.067s] -- Installing: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv
+[0.068s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/ament_index/resource_index/packages/mec_mobile_gazebo
+[0.068s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/cmake/mec_mobile_gazeboConfig.cmake
+[0.068s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/cmake/mec_mobile_gazeboConfig-version.cmake
+[0.068s] -- Up-to-date: /home/tracy/ros2_ws/src/mec_mobile/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.xml
+[0.069s] Invoked command in '/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile_gazebo

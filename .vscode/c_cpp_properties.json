@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/jazzy/include/**",
+        "/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile/include/**",
+        "/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_description/include/**",
+        "/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_gazebo/include/**",
+        "/media/tracy/DATA/ros2_ws/src/mecanum_controller_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

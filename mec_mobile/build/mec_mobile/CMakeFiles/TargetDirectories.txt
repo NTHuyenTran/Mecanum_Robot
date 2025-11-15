@@ -1,0 +1,9 @@
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/uninstall.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/mec_mobile_uninstall.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/test.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/edit_cache.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/rebuild_cache.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/list_install_components.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/install.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/install/local.dir
+/home/tracy/ros2_ws/src/mec_mobile/build/mec_mobile/CMakeFiles/install/strip.dir
