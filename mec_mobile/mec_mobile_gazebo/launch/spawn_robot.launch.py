@@ -6,9 +6,6 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, Command
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
-from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
-
 
 def generate_launch_description():
 
@@ -95,34 +92,12 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-        "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
-        "/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist",
-        "/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry",
-        "/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model",  # bỏ dòng này
-        "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V"
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist",
+            "/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry",
+            "/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model",
+            "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V"
         ],
-        output="screen",
-        parameters=[
-            {'use_sim_time': True},
-        ]
-    )
-
-    # Node spawn joint_state_broadcaster cho ros2_control
-    joint_state_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-        output="screen",
-        parameters=[
-            {'use_sim_time': True},
-        ]
-    )
-
-    # Node spawn base_controller (diff_drive_controller)
-    base_controller_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["base_controller", "--controller-manager", "/controller_manager"],
         output="screen",
         parameters=[
             {'use_sim_time': True},
@@ -144,8 +119,5 @@ def generate_launch_description():
     launchDescriptionObject.add_action(spawn_urdf_node)
     launchDescriptionObject.add_action(robot_state_publisher_node)
     launchDescriptionObject.add_action(gz_bridge_node)
-    launchDescriptionObject.add_action(joint_state_broadcaster_spawner)
-    launchDescriptionObject.add_action(base_controller_spawner)
-
 
     return launchDescriptionObject
