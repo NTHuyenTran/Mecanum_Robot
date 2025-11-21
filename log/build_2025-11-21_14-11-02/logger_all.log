@@ -1,0 +1,411 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76ed5f84e720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ed5f9c8860>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ed5f9c8860>>, mixin_verb=('build',))
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/tracy/DATA/ros2_ws/src'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/build) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/build) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/build) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/install) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/install) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/install) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/log) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'mec_mobile/mec_mobile' with type 'ros.ament_cmake' and name 'mec_mobile'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_description) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'mec_mobile/mec_mobile_description' with type 'ros.ament_cmake' and name 'mec_mobile_description'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile/mec_mobile_gazebo) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'mec_mobile/mec_mobile_gazebo' with type 'ros.ament_cmake' and name 'mec_mobile_gazebo'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mec_mobile_nav2) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'mec_mobile_nav2' with type 'ros.ament_cmake' and name 'mec_mobile_nav2'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mecanum_controller_cpp) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'mecanum_controller_cpp' with type 'ros.ament_cmake' and name 'mecanum_controller_cpp'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.205s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /media/tracy/DATA/ros2_ws/src/install
+[0.206s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /media/tracy/DATA/ros2_ws/install
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/jazzy
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description', 'merge_install': False, 'path': '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_description', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo', 'merge_install': False, 'path': '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2', 'merge_install': False, 'path': '/media/tracy/DATA/ros2_ws/src/mec_mobile_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mecanum_controller_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_controller_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp', 'merge_install': False, 'path': '/media/tracy/DATA/ros2_ws/src/mecanum_controller_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/tracy/DATA/ros2_ws/src/build/mec_mobile', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/tracy/DATA/ros2_ws/src/install/mec_mobile', 'merge_install': False, 'path': '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile', 'symlink_install': False, 'test_result_base': None}
+[0.257s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_description' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_description'
+[0.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_gazebo' with build type 'ament_cmake'
+[0.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_gazebo'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/tracy/DATA/ros2_ws/src/mec_mobile_nav2' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/tracy/DATA/ros2_ws/src/mec_mobile_nav2'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/tracy/DATA/ros2_ws/src/mecanum_controller_cpp' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/tracy/DATA/ros2_ws/src/mecanum_controller_cpp'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_description -- -j16 -l16
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo -- -j16 -l16
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2 -- -j16 -l16
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp -- -j16 -l16
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_description -- -j16 -l16
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_description
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp -- -j16 -l16
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2 -- -j16 -l16
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo -- -j16 -l16
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo
+[0.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_controller_cpp)
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp' for CMake module files
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp' for CMake config files
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_controller_cpp', 'cmake_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.ps1'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.sh'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/bin'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/lib/pkgconfig/mecanum_controller_cpp.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/lib/python3.12/site-packages'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.bash'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/colcon-core/packages/mecanum_controller_cpp)
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_controller_cpp)
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp' for CMake module files
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp' for CMake config files
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_controller_cpp', 'cmake_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/hook/cmake_prefix_path.sh'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/bin'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/lib/pkgconfig/mecanum_controller_cpp.pc'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/lib/python3.12/site-packages'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/bin'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/mecanum_controller_cpp/package.zsh'
+[0.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp/share/colcon-core/packages/mecanum_controller_cpp)
+[0.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_description)
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description' for CMake module files
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_description
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description' for CMake config files
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_description', 'cmake_prefix_path')
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.sh'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/bin'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/lib/pkgconfig/mec_mobile_description.pc'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/lib/python3.12/site-packages'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/bin'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.dsv'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.sh'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.bash'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.zsh'
+[0.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/colcon-core/packages/mec_mobile_description)
+[0.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_description)
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description' for CMake module files
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description' for CMake config files
+[0.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_description', 'cmake_prefix_path')
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.sh'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/bin'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/lib/pkgconfig/mec_mobile_description.pc'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/lib/python3.12/site-packages'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/bin'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.sh'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.bash'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/mec_mobile_description/package.zsh'
+[0.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description/share/colcon-core/packages/mec_mobile_description)
+[0.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_nav2)
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2' for CMake module files
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2' for CMake config files
+[0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_nav2', 'cmake_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.sh'
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/bin'
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/lib/pkgconfig/mec_mobile_nav2.pc'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/lib/python3.12/site-packages'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/bin'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.ps1'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.sh'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.bash'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.zsh'
+[0.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/colcon-core/packages/mec_mobile_nav2)
+[0.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_nav2)
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2' for CMake config files
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_nav2', 'cmake_prefix_path')
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/hook/cmake_prefix_path.sh'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/bin'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/lib/pkgconfig/mec_mobile_nav2.pc'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/lib/python3.12/site-packages'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/bin'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.bash'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.zsh'
+[0.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/colcon-core/packages/mec_mobile_nav2)
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_gazebo)
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo' for CMake module files
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo' for CMake config files
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_gazebo', 'cmake_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.sh'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/bin'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/lib/pkgconfig/mec_mobile_gazebo.pc'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/lib/python3.12/site-packages'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/bin'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.bash'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.zsh'
+[0.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/colcon-core/packages/mec_mobile_gazebo)
+[0.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_gazebo)
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo' for CMake module files
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo' for CMake config files
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_gazebo', 'cmake_prefix_path')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.sh'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/bin'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/lib/pkgconfig/mec_mobile_gazebo.pc'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/lib/python3.12/site-packages'
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/bin'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.bash'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.zsh'
+[0.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/colcon-core/packages/mec_mobile_gazebo)
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile': CMAKE_PREFIX_PATH=/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description:/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/src/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mec_mobile_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile -- -j16 -l16
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile' returned '0': CMAKE_PREFIX_PATH=/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description:/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/src/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mec_mobile_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile -- -j16 -l16
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile': CMAKE_PREFIX_PATH=/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description:/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/src/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mec_mobile_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile
+[0.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile)
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile' for CMake module files
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile' returned '0': CMAKE_PREFIX_PATH=/media/tracy/DATA/ros2_ws/src/install/mec_mobile_description:/media/tracy/DATA/ros2_ws/src/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2:/media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/src/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mecanum_controller_cpp:/media/tracy/DATA/ros2_ws/install/mec_mobile_gazebo:/media/tracy/DATA/ros2_ws/install/mec_mobile:/media/tracy/DATA/ros2_ws/install/mec_mobile_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile', 'cmake_prefix_path')
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.dsv'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.sh'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/bin'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/lib/pkgconfig/mec_mobile.pc'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/lib/python3.12/site-packages'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/bin'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.sh'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.bash'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.zsh'
+[0.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/colcon-core/packages/mec_mobile)
+[0.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile)
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile' for CMake module files
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile' for CMake config files
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile', 'cmake_prefix_path')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.sh'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/bin'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/lib/pkgconfig/mec_mobile.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/lib/python3.12/site-packages'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/bin'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/mec_mobile/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/tracy/DATA/ros2_ws/src/install/mec_mobile/share/colcon-core/packages/mec_mobile)
+[0.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.493s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.501s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.522s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/tracy/DATA/ros2_ws/src/install/local_setup.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/tracy/DATA/ros2_ws/src/install/_local_setup_util_ps1.py'
+[0.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/tracy/DATA/ros2_ws/src/install/setup.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/tracy/DATA/ros2_ws/src/install/local_setup.sh'
+[0.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/tracy/DATA/ros2_ws/src/install/_local_setup_util_sh.py'
+[0.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/tracy/DATA/ros2_ws/src/install/setup.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/tracy/DATA/ros2_ws/src/install/local_setup.bash'
+[0.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/tracy/DATA/ros2_ws/src/install/setup.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/tracy/DATA/ros2_ws/src/install/local_setup.zsh'
+[0.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/tracy/DATA/ros2_ws/src/install/setup.zsh'

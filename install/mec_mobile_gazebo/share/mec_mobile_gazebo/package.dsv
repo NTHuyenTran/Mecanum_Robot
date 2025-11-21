@@ -1,0 +1,8 @@
+source;share/mec_mobile_gazebo/hook/cmake_prefix_path.ps1
+source;share/mec_mobile_gazebo/hook/cmake_prefix_path.dsv
+source;share/mec_mobile_gazebo/hook/cmake_prefix_path.sh
+source;share/mec_mobile_gazebo/local_setup.bash
+source;share/mec_mobile_gazebo/local_setup.dsv
+source;share/mec_mobile_gazebo/local_setup.ps1
+source;share/mec_mobile_gazebo/local_setup.sh
+source;share/mec_mobile_gazebo/local_setup.zsh

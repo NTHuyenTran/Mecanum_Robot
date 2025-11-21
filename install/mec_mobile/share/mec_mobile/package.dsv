@@ -1,0 +1,8 @@
+source;share/mec_mobile/hook/cmake_prefix_path.ps1
+source;share/mec_mobile/hook/cmake_prefix_path.dsv
+source;share/mec_mobile/hook/cmake_prefix_path.sh
+source;share/mec_mobile/local_setup.bash
+source;share/mec_mobile/local_setup.dsv
+source;share/mec_mobile/local_setup.ps1
+source;share/mec_mobile/local_setup.sh
+source;share/mec_mobile/local_setup.zsh

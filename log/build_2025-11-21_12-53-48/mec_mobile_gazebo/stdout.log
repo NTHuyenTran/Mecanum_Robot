@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo
+-- Install configuration: ""
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/launch
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/launch/spawn_robot.launch.py
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/launch/world.launch.py
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds/empty.sdf
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/worlds/world.sdf
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/ament_index/resource_index/package_run_dependencies/mec_mobile_gazebo
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/ament_index/resource_index/parent_prefix_path/mec_mobile_gazebo
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/ament_prefix_path.sh
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/path.sh
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/environment/path.dsv
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.bash
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.sh
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.zsh
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/local_setup.dsv
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/ament_index/resource_index/packages/mec_mobile_gazebo
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/cmake/mec_mobile_gazeboConfig.cmake
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/cmake/mec_mobile_gazeboConfig-version.cmake
+-- Installing: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.xml

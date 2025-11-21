@@ -1,0 +1,1 @@
+/media/tracy/DATA/ros2_ws/src/build/mec_mobile_description/ament_cmake_environment_hooks/local_setup.bash

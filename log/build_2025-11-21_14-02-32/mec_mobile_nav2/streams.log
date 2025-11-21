@@ -1,0 +1,21 @@
+[0.033s] Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2 -- -j16 -l16
+[0.179s] Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2 -- -j16 -l16
+[0.181s] Invoking command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2
+[0.201s] -- Install configuration: ""
+[0.202s] -- Execute custom install script
+[0.203s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/ament_index/resource_index/package_run_dependencies/mec_mobile_nav2
+[0.203s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/ament_index/resource_index/parent_prefix_path/mec_mobile_nav2
+[0.204s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/environment/ament_prefix_path.sh
+[0.204s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/environment/ament_prefix_path.dsv
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/environment/path.sh
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/environment/path.dsv
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/local_setup.bash
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/local_setup.sh
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/local_setup.zsh
+[0.205s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/local_setup.dsv
+[0.205s] -- Symlinking: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.dsv
+[0.222s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/ament_index/resource_index/packages/mec_mobile_nav2
+[0.223s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/cmake/mec_mobile_nav2Config.cmake
+[0.223s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/cmake/mec_mobile_nav2Config-version.cmake
+[0.224s] -- Up-to-date symlink: /media/tracy/DATA/ros2_ws/src/install/mec_mobile_nav2/share/mec_mobile_nav2/package.xml
+[0.252s] Invoked command in '/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2
