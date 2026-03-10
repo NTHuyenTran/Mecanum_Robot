@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_3d" xmlns:gz="http://gazebo.org/schema">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_3d">
 
     <xacro:property name="M_PI" value="3.1415926535897931" />
 
@@ -12,6 +12,7 @@
     <xacro:include filename="$(find mec_mobile_description)/urdf/sensors/rgbd_camera.urdf.xacro"/>
     <xacro:include filename="$(find mec_mobile_description)/urdf/sensors/lidar.urdf.xacro"/>
     <xacro:include filename="$(find mec_mobile_description)/urdf/sensors/imu.urdf.xacro"/>
+    <xacro:include filename="$(find mec_mobile_description)/urdf/sensors/pointcloud_only.urdf.xacro"/>
     <xacro:include filename="$(find mec_mobile_description)/urdf/control/mec_mobile.gazebo"/>
 
     <xacro:robot_3d_base prefix="$(arg prefix)"/>
@@ -46,6 +47,10 @@
       xyz_offset="0.105 0 0.03"
       rpy_offset="0 0 0"/>
 
+    <xacro:pointcloud_only
+      prefix="$(arg prefix)"
+      parent="base_link"/>
+
     <xacro:lidar_sensor
       prefix="$(arg prefix)"
       parent="base_link"
@@ -65,123 +70,67 @@
       update_rate="15.0"
       topic_name="imu/data"/>
 
-    <!-- Gazebo frictions -->
-    <gazebo reference="front_left_wheel">
+    <gazebo reference='front_left_wheel_link'>
       <collision>
         <surface>
           <friction>
             <ode>
               <mu>1.5</mu>
               <mu2>0.0</mu2>
-              <fdir1 gz:expressed_in="base_footprint">1 -1 0</fdir1>
+              <fdir1>1 -1 0</fdir1>
             </ode>
           </friction>
         </surface>
       </collision>
-    </gazebo>
+      </gazebo>
 
-    <gazebo reference="back_left_wheel">
-      <collision>
-        <surface>
-          <friction>
-            <ode>
-              <mu>1.5</mu>
-              <mu2>0.0</mu2>
-              <fdir1 gz:expressed_in="base_footprint">1 1 0</fdir1>
-            </ode>
-          </friction>
-        </surface>
-      </collision>
-    </gazebo>
+      <gazebo reference='back_left_wheel_link'>
+        <collision>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.5</mu>
+                <mu2>0.0</mu2>
+                <fdir1>1 1 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+      </gazebo>
 
-    <gazebo reference="front_right_wheel">
-      <collision>
-        <surface>
-          <friction>
-            <ode>
-              <mu>1.5</mu>
-              <mu2>0.0</mu2>
-              <fdir1 gz:expressed_in="base_footprint">1 1 0</fdir1>
-            </ode>
-          </friction>
-        </surface>
-      </collision>
-    </gazebo>
+      <gazebo reference='front_right_wheel_link'>
+        <collision>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.5</mu>
+                <mu2>0.0</mu2>
+                <fdir1>1 1 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+      </gazebo>
 
-    <gazebo reference="back_right_wheel">
-      <collision>
-        <surface>
-          <friction>
-            <ode>
-              <mu>1.5</mu>
-              <mu2>0.0</mu2>
-              <fdir1 gz:expressed_in="base_footprint">1 -1 0</fdir1>
-            </ode>
-          </friction>
-        </surface>
-      </collision>
-    </gazebo>
+      <gazebo reference='back_right_wheel_link'>
+        <collision>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.5</mu>
+                <mu2>0.0</mu2>
+                <fdir1>1 -1 0</fdir1>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+      </gazebo>  
 
-    <gazebo reference="base_link">
-    <mu1>0.000002</mu1>
-    <mu2>0.000002</mu2>
-    </gazebo>
 
-  <!-- ros2_control: mô tả 4 bánh cho Gazebo + sau này HW thật -->
-  <ros2_control name="GazeboSimSystem" type="system">
-    <hardware>
-      <!-- Trong Gazebo dùng plugin này để nối với physics engine -->
-      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-    </hardware>
-
-    <!-- front_left -->
-    <joint name="front_left_wheel_joint">
-      <command_interface name="velocity">
-        <param name="min">-50.0</param>
-        <param name="max">50.0</param>
-      </command_interface>
-      <state_interface name="position"/>
-      <state_interface name="velocity"/>
-    </joint>
-
-    <!-- front_right -->
-    <joint name="front_right_wheel_joint">
-      <command_interface name="velocity">
-        <param name="min">-50.0</param>
-        <param name="max">50.0</param>
-      </command_interface>
-      <state_interface name="position"/>
-      <state_interface name="velocity"/>
-    </joint>
-
-    <!-- back_left -->
-    <joint name="back_left_wheel_joint">
-      <command_interface name="velocity">
-        <param name="min">-50.0</param>
-        <param name="max">50.0</param>
-      </command_interface>
-      <state_interface name="position"/>
-      <state_interface name="velocity"/>
-    </joint>
-
-    <!-- back_right -->
-    <joint name="back_right_wheel_joint">
-      <command_interface name="velocity">
-        <param name="min">-50.0</param>
-        <param name="max">50.0</param>
-      </command_interface>
-      <state_interface name="position"/>
-      <state_interface name="velocity"/>
-    </joint>
-
-  </ros2_control>
-
-    <gazebo>
-    <plugin
-      name="gz_ros2_control"
-      filename="gz_ros2_control-system">
-      <parameters>$(find mec_mobile_description)/config/mec_mobile_controllers.yaml</parameters>
-    </plugin>
-  </gazebo>
+      <gazebo reference="base_link">
+        <mu1>0.000002</mu1>
+        <mu2>0.000002</mu2>
+        <!-- <material>Gazebo/Red</material> -->
+      </gazebo>
 
 </robot>

@@ -3,7 +3,7 @@
 <xacro:property name="total_width" value="0.19940" />
 <xacro:property name="wheel_width" value="0.0304" />
 <xacro:property name="wheel_radius" value="0.0325" />
-<xacro:property name="total_height" value="0.26225" />
+<xacro:property name="total_height" value="0.16225" />
 <xacro:property name="base_length" value="0.300" />
 <xacro:property name="centered_length" value="0.238" />
 <xacro:property name="base_x_offset" value="${(centered_length - base_length) / 2}" />
@@ -15,7 +15,6 @@
 <xacro:macro name="robot_3d_base" params="prefix">
   <link name="${prefix}base_footprint"/>
   <link name="${prefix}base_link">
-
     <visual>
         <geometry>
             <mesh filename="file://$(find mec_mobile_description)/meshes/robot_3d/visual/base_link_X3.STL"/>
@@ -25,14 +24,12 @@
         </material>
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
-
     <collision>
         <geometry>
             <box size="${base_size_x} ${base_size_y} ${base_size_z}"/>
         </geometry>
         <origin xyz="${base_x_offset} 0 ${base_size_z/2 + wheel_radius/4}" rpy="0 0 0"/>
     </collision>
-
     <inertial>
         <origin xyz="${base_x_offset} 0 ${base_size_z/2 + wheel_radius/4}" rpy="0 0 0"/>
         <mass value="${base_mass}"/>
@@ -41,7 +38,6 @@
             iyy="${(1/12) * base_mass * ((base_size_x * base_size_x) + (base_size_z * base_size_z))}" iyz="0.0"
             izz="${(1/12) * base_mass * ((base_size_x * base_size_x) + (base_size_y * base_size_y))}"/>
     </inertial>
-
   </link>
   <gazebo reference="${prefix}base_link">
     <visual>
@@ -58,5 +54,4 @@
     <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0"/>
   </joint>
 </xacro:macro>
-
 </robot>

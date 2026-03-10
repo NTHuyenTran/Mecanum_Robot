@@ -1,1 +1,0 @@
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/ament_cmake_core/mec_mobile_gazeboConfig-version.cmake

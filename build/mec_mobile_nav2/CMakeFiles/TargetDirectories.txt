@@ -1,9 +1,0 @@
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/mec_mobile_nav2_uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/test.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/edit_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/rebuild_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/list_install_components.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/install.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/install/local.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_nav2/CMakeFiles/install/strip.dir

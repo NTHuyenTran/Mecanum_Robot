@@ -1,9 +1,0 @@
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/mec_mobile_gazebo_uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/test.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/edit_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/rebuild_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/list_install_components.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/install.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/install/local.dir
-/media/tracy/DATA/ros2_ws/src/build/mec_mobile_gazebo/CMakeFiles/install/strip.dir

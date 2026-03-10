@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="pointcloud_only" params="prefix parent">
+    <!-- Link ảo chỉ để treo sensor, không ảnh hưởng TF -->
+    <link name="${prefix}pointcloud_link"/>
+
+    <joint name="${prefix}pointcloud_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${prefix}pointcloud_link"/>
+      <origin xyz="0.105 0 0.05" rpy="0 -0.5 0"/>
+    </joint>
+
+    <!-- Sensor phụ – chỉ để có PointCloud2 thật -->
+    <gazebo reference="${prefix}pointcloud_link">
+      <sensor type="gpu_lidar" name="pointcloud">
+        <always_on>true</always_on>
+        <update_rate>20</update_rate>
+        <visualize>false</visualize>
+        <topic>/cam_1/points</topic>
+
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>640</samples>
+              <resolution>1</resolution>
+              <min_angle>-1.047</min_angle>
+              <max_angle>1.047</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>480</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.5236</min_angle>
+              <max_angle>0.349</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.15</min>
+            <max>8.0</max>
+            <resolution>0.01</resolution>
+          </range>
+        </ray>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+
+</robot>

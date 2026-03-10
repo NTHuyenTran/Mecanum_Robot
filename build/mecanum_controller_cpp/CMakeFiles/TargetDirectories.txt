@@ -1,9 +1,0 @@
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/mecanum_controller_cpp_uninstall.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/test.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/edit_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/rebuild_cache.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/list_install_components.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/install.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/install/local.dir
-/media/tracy/DATA/ros2_ws/src/build/mecanum_controller_cpp/CMakeFiles/install/strip.dir

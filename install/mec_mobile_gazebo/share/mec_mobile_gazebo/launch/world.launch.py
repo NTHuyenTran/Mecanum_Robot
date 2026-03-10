@@ -1,1 +1,0 @@
-/media/tracy/DATA/ros2_ws/src/mec_mobile/mec_mobile_gazebo/launch/world.launch.py

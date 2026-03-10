@@ -87,30 +87,33 @@ def generate_launch_description():
         ]
     )
 
-    # Node to bridge messages like /cmd_vel and /odom
+    # ROS-GZ Bridge 
     gz_bridge_node = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
             "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V",
+
+            # CHỈNH CMD_VEL CHO MECANUM
             "/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist",
+
+            # ODOMETRY
             "/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry",
+
+            # SENSOR – PHẢI CÓ 2 DÒNG NÀY!
+            "/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan",
+            "/cam_1/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked",
+
+            "/imu/data@sensor_msgs/msg/Imu@gz.msgs.IMU",
             "/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model",
-            "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V"
         ],
         output="screen",
-        parameters=[
-            {'use_sim_time': True},
-        ]
+        parameters=[{"use_sim_time": True}]
     )
 
-    # joint_state_publisher_gui_node = Node(
-    #     package='joint_state_publisher_gui',
-    #     executable='joint_state_publisher_gui',
-    # )
-
     launchDescriptionObject = LaunchDescription()
-
+    
     launchDescriptionObject.add_action(rviz_launch_arg)
     launchDescriptionObject.add_action(world_arg)
     launchDescriptionObject.add_action(model_arg)
