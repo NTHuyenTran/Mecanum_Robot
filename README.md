@@ -30,37 +30,30 @@ Before you begin, ensure you have met the following requirements:
 
 ## 🚀 Installation & Setup
 
-1. **Create a ROS2 workspace** (if you don't have one):
+**1. Create a ROS2 workspace** (if you don't have one):
    ```bash
    mkdir -p ~/ros2_ws/src
    cd ~/ros2_ws/src
    ```
 
-2.  **Clone the repository:**
+**2. Clone the repository:**
 
-    ```bash
     git clone [https://github.com/NTHuyenTran/Mecanum_Robot.git](https://github.com/NTHuyenTran/Mecanum_Robot.git)
-    ```
 
-3.  **Install dependencies:**
 
-    ```bash
+**3. Install dependencies:**
+
     cd ~/ros2_ws
     rosdep install --from-paths src --ignore-src -r -y
-    ```
 
-4.  **Build the project:**
+**4. Build the project:**
 
-    ```bash
     colcon build --symlink-install
-    ```
 
-5.  **Source the workspace:**
+**5. Source the workspace:**
 
-    ```bash
     source install/setup.bash
-    ```
-
+    
 ## 🎮 Usage
 
 *(Note: Replace `[your_package_name]` and `[your_launch_file.py]` with your actual file names)*
