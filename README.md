@@ -34,6 +34,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    mkdir -p ~/ros2_ws/src
    cd ~/ros2_ws/src
+   ```
 
 2.  **Clone the repository:**
 
@@ -97,4 +98,4 @@ Mecanum_Robot/
 
 **NTHuyenTran**
 
-  * GitHub: [@NTHuyenTran](https://www.google.com/search?q=https://github.com/NTHuyenTran)
+  * GitHub: [@NTHuyenTran](https://github.com/NTHuyenTran)
