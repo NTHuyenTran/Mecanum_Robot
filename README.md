@@ -34,44 +34,72 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    mkdir -p ~/ros2_ws/src
    cd ~/ros2_ws/src
+````
 
-Clone the repository:
+2.  **Clone the repository:**
 
-Bash
-git clone [https://github.com/NTHuyenTran/Mecanum_Robot.git](https://github.com/NTHuyenTran/Mecanum_Robot.git)
-Install dependencies:
+    ```bash
+    git clone [https://github.com/NTHuyenTran/Mecanum_Robot.git](https://github.com/NTHuyenTran/Mecanum_Robot.git)
+    ```
 
-Bash
-cd ~/ros2_ws
-rosdep install --from-paths src --ignore-src -r -y
-Build the project:
+3.  **Install dependencies:**
 
-Bash
-colcon build --symlink-install
-Source the workspace:
+    ```bash
+    cd ~/ros2_ws
+    rosdep install --from-paths src --ignore-src -r -y
+    ```
 
-Bash
-source install/setup.bash
-🎮 Usage
-(Note: Replace [your_package_name] and [your_launch_file.py] with your actual file names)
+4.  **Build the project:**
 
-1. Launch the robot in RViz:
+    ```bash
+    colcon build --symlink-install
+    ```
 
-Bash
+5.  **Source the workspace:**
+
+    ```bash
+    source install/setup.bash
+    ```
+
+## 🎮 Usage
+
+*(Note: Replace `[your_package_name]` and `[your_launch_file.py]` with your actual file names)*
+
+**1. Launch the robot in RViz:**
+
+```bash
 ros2 launch [your_package_name] display.launch.py
-2. Launch the Gazebo simulation:
+```
 
-Bash
+**2. Launch the Gazebo simulation:**
+
+```bash
 ros2 launch [your_package_name] gazebo.launch.py
-3. Control the robot via keyboard:
+```
 
-Bash
+**3. Control the robot via keyboard:**
+
+```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
-📂 Project Structure
-Plaintext
+```
+
+## 📂 Project Structure
+
+```text
 Mecanum_Robot/
 ├── description/        # URDF and Xacro files for the robot model
 ├── launch/             # Launch files for RViz and Gazebo
 ├── config/             # Configuration files (RViz, controllers, etc.)
 ├── worlds/             # Gazebo simulation environments
 └── CMakeLists.txt / package.xml
+```
+
+## ✍️ Author
+
+**NTHuyenTran**
+
+  * GitHub: [@NTHuyenTran](https://www.google.com/search?q=https://github.com/NTHuyenTran)
+2. **Phần Project Structure**: Cấu trúc thư mục này là cấu trúc chuẩn thường thấy của 1 package mô phỏng. Nếu project của bạn có thêm các thư mục khác (như `src` cho node C++/Python, `maps` cho bản đồ,...), bạn có thể tự thêm vào cho đầy đủ.
+
+Chúc bạn code map và navigation thật mượt mà nhé! Cần hỗ trợ thêm về ROS2 Jazzy hay Nav2 thì cứ gọi mình.
+```
