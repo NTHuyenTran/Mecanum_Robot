@@ -34,7 +34,6 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    mkdir -p ~/ros2_ws/src
    cd ~/ros2_ws/src
-````
 
 2.  **Clone the repository:**
 
@@ -99,7 +98,3 @@ Mecanum_Robot/
 **NTHuyenTran**
 
   * GitHub: [@NTHuyenTran](https://www.google.com/search?q=https://github.com/NTHuyenTran)
-2. **Phần Project Structure**: Cấu trúc thư mục này là cấu trúc chuẩn thường thấy của 1 package mô phỏng. Nếu project của bạn có thêm các thư mục khác (như `src` cho node C++/Python, `maps` cho bản đồ,...), bạn có thể tự thêm vào cho đầy đủ.
-
-Chúc bạn code map và navigation thật mượt mà nhé! Cần hỗ trợ thêm về ROS2 Jazzy hay Nav2 thì cứ gọi mình.
-```
